@@ -1,86 +1,82 @@
-# React Todo App
+React Todo App
 
-A modern Todo App built with React that helps users manage daily tasks efficiently.
+🔗 Live Demo: https://react-todo-app-gamma-azure.vercel.app
 
-## Features
+A modern and responsive Todo Application built with React and Vite. The app allows users to manage daily tasks efficiently with features like task creation, editing, deletion, filtering, and local storage persistence.
 
-- Add new tasks
-- Edit existing tasks
-- Delete tasks
-- Mark tasks as completed
-- Filter tasks:
-  - All
-  - Active
-  - Completed
-- Data persistence using Local Storage
-- Responsive design for different screen sizes
-- Clean and user-friendly interface
+Features
 
-## Tech Stack
+* Add new tasks
+* Edit existing tasks
+* Delete tasks
+* Mark tasks as completed
+* Filter tasks by:
+    * All
+    * Active
+    * Completed
+* Task completion counter
+* Local Storage support (tasks persist after page refresh)
+* Responsive design
+* Glassmorphism-inspired UI
 
-- React
-- JavaScript (ES6+)
-- CSS3
-- Vite
+Tech Stack
 
-## Installation
+* React
+* JavaScript (ES6+)
+* CSS3
+* Vite
+
+Installation
 
 Clone the repository:
 
-```bash
 git clone https://github.com/crafted-by-tarun/react-todo-app.git
-```
 
-Navigate to the project folder:
+Navigate to the project directory:
 
-```bash
 cd react-todo-app
-```
 
 Install dependencies:
 
-```bash
 npm install
-```
 
-Start the development server:
+Run the development server:
 
-```bash
 npm run dev
-```
 
-## Project Structure
+Project Structure
 
-```text
 src/
-├── components/
 ├── App.jsx
 ├── main.jsx
-└── styles.css
-```
+├── Todo.jsx
+├── styles.css
+└── assets/
 
-## Learning Outcomes
+Learning Outcomes
 
-This project helped me practice:
+Through this project, I practiced:
 
-- React Components
-- Props
-- State Management with useState
-- Event Handling
-- Conditional Rendering
-- Array Methods (map, filter)
-- Local Storage
-- Responsive CSS Design
+* React Components
+* State Management using useState
+* Side Effects using useEffect
+* Event Handling
+* Conditional Rendering
+* Array Methods (map, filter)
+* Local Storage
+* Responsive Web Design
+* Component-Based Architecture
 
-## Future Improvements
+Future Improvements
 
-- Drag and drop task reordering
-- Due dates and reminders
-- Dark/Light theme toggle
-- Categories and tags
-- Backend integration
+* Dark/Light Theme Toggle
+* Due Dates for Tasks
+* Search Functionality
+* Drag and Drop Reordering
+* Task Categories
+* Toast Notifications
 
-## Author
+Author
 
 Tarun Mahindra
 
