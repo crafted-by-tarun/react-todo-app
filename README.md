@@ -1,83 +1,100 @@
-React Todo App
+# React Todo App
 
-🔗 Live Demo: https://react-todo-app-gamma-azure.vercel.app
+🔗 **Live Demo:** https://react-todo-app-gamma-azure.vercel.app
 
-A modern and responsive Todo Application built with React and Vite. The app allows users to manage daily tasks efficiently with features like task creation, editing, deletion, filtering, and local storage persistence.
+A modern and responsive Todo Application built with React and Vite. The app helps users organize daily tasks with features like task creation, editing, deletion, filtering, and local storage persistence.
 
-Features
+## Features
 
-* Add new tasks
-* Edit existing tasks
-* Delete tasks
-* Mark tasks as completed
-* Filter tasks by:
-    * All
-    * Active
-    * Completed
-* Task completion counter
-* Local Storage support (tasks persist after page refresh)
-* Responsive design
-* Glassmorphism-inspired UI
+- ✅ Add new tasks
+- ✅ Edit existing tasks
+- ✅ Delete tasks
+- ✅ Mark tasks as completed
+- ✅ Filter tasks (All / Active / Completed)
+- ✅ Task completion counter
+- ✅ Local Storage support
+- ✅ Responsive design
+- ✅ Glassmorphism-inspired UI
 
-Tech Stack
+## Tech Stack
 
-* React
-* JavaScript (ES6+)
-* CSS3
-* Vite
+- React
+- JavaScript (ES6+)
+- CSS3
+- Vite
 
-Installation
+## Preview
+
+![Todo App Screenshot](https://via.placeholder.com/800x400?text=React+Todo+App)
+
+> Replace this image with an actual screenshot of your application.
+
+## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/crafted-by-tarun/react-todo-app.git
+```
 
 Navigate to the project directory:
 
+```bash
 cd react-todo-app
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
-Run the development server:
+Start the development server:
 
+```bash
 npm run dev
+```
 
-Project Structure
+## Project Structure
 
+```text
 src/
 ├── App.jsx
-├── main.jsx
 ├── Todo.jsx
+├── main.jsx
 ├── styles.css
 └── assets/
+```
 
-Learning Outcomes
+## Learning Outcomes
 
-Through this project, I practiced:
+This project helped me strengthen my understanding of:
 
-* React Components
-* State Management using useState
-* Side Effects using useEffect
-* Event Handling
-* Conditional Rendering
-* Array Methods (map, filter)
-* Local Storage
-* Responsive Web Design
-* Component-Based Architecture
+- React Components
+- State Management with `useState`
+- Side Effects with `useEffect`
+- Event Handling
+- Conditional Rendering
+- Array Methods (`map`, `filter`)
+- Local Storage
+- Responsive Design
+- Component-Based Architecture
 
-Future Improvements
+## Future Improvements
 
-* Dark/Light Theme Toggle
-* Due Dates for Tasks
-* Search Functionality
-* Drag and Drop Reordering
-* Task Categories
-* Toast Notifications
+- Dark/Light Theme Toggle
+- Search Tasks
+- Due Dates
+- Drag & Drop Reordering
+- Task Categories
+- Toast Notifications
 
-Author
+## Author
 
-Tarun Mahindra
+**Tarun Mahindra**
 
 GitHub: https://github.com/crafted-by-tarun
+
+## License
+
+This project is open source and available under the MIT License.
