@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { FaFilter } from "react-icons/fa6";
 import { FaRegEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
+import { toast } from "react-toastify";
 import "./styles.css";
 export default function Todo() {
     let [text, setText] = useState("");
@@ -29,7 +30,14 @@ export default function Todo() {
     if (filter === "Active") filteredtasks = tasks.filter(task => !task.completed);
     if (filter === "Completed") filteredtasks = tasks.filter(task => task.completed);
     function add_handler() {
-        if (text.trim() === "") return;
+          if (text.trim() === "") {
+
+        toast.warning("Please enter a task");
+
+        return;
+
+    }
+        toast.success("Task Added");
         const newtask = {
             id: Date.now(),
             text: text,
@@ -39,6 +47,7 @@ export default function Todo() {
         setText("");
     }
     function delete_handler(id) {
+        toast.error("Task Deleted");
         let newtasks = tasks.filter(task => task.id !== id);
         setTasks(newtasks);
     }
@@ -48,6 +57,7 @@ export default function Todo() {
         setEditID(id);
     }
     function update_handler() {
+        toast.info("Task Updated");
         setTasks(tasks.map(task => task.id === editID ? { ...task, text: text } : task));
         setText("");
         setEditID(null);
