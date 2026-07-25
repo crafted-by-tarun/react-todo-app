@@ -221,3 +221,163 @@ input{
     cursor: pointer;
     background-color: rgba(6, 0, 0, 0.179);
 }
+
+/* ====================================
+        TABLET (<= 992px)
+==================================== */
+
+@media (max-width:992px){
+
+    .todo-container{
+        width:90%;
+        padding:1.8rem;
+    }
+
+    .input-container{
+        width:100%;
+    }
+
+    .filters-container{
+        width:100%;
+    }
+
+    .tasks-list{
+        width:100%;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+}
+
+
+/* ====================================
+        MOBILE (<=768px)
+==================================== */
+
+@media (max-width:768px){
+
+    body{
+        padding:1rem;
+        align-items:flex-start;
+        padding-top:2rem;
+    }
+
+    .todo-container{
+        width:100%;
+        padding:1.5rem 1rem;
+        border-radius:20px;
+    }
+
+    h1{
+        font-size:1.8rem;
+        text-align:center;
+        margin-bottom:1rem;
+    }
+
+    .input-container{
+        width:100%;
+        flex-direction:column;
+        height:auto;
+        gap:12px;
+    }
+
+    .input-container input{
+        width:100%;
+        height:45px;
+    }
+
+    .input-container button{
+        width:100%;
+        height:45px;
+    }
+
+    .filters-container{
+        width:100%;
+        flex-wrap:wrap;
+        height:auto;
+        gap:10px;
+    }
+
+    .filters-container button{
+        min-width:30%;
+        height:40px;
+    }
+
+    .tasks-list{
+        margin-top:1rem;
+        padding:0.8rem;
+    }
+
+    .task{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:12px;
+        padding:1rem;
+    }
+
+    .task-left{
+        position:static;
+        width:100%;
+        word-break:break-word;
+    }
+
+    .task-right{
+        position:static;
+        width:100%;
+        justify-content:flex-end;
+    }
+
+}
+
+
+/* ====================================
+        SMALL MOBILE (<=480px)
+==================================== */
+
+@media (max-width:480px){
+
+    body{
+        padding:0.8rem;
+        padding-top:1.2rem;
+    }
+
+    .todo-container{
+        width:100%;
+        padding:1rem;
+    }
+
+    h1{
+        font-size:1.5rem;
+    }
+
+    .filters-container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+    }
+
+    .filters-container button{
+        width:100%;
+    }
+
+    .task{
+        padding:0.8rem;
+    }
+
+    .task-left{
+        gap:10px;
+        font-size:15px;
+    }
+
+    .task-right{
+        gap:8px;
+    }
+
+    .edit-btn,
+    .delete-btn{
+        padding:0.45rem;
+    }
+
+}
